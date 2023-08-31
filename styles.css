@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+}
+
+
+body {
+    background: url(./img/background.png);
+
+}
+
+.caixa {
+    background-color: beige;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 100px auto 0;
+}
+
+.adicionar {
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 20px;
+}
+
+.botao {
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+    background-color: rgb(5, 110, 40);
+    color: aliceblue;
+    font-size: 15px;
+    padding: 0 15px;
+    float: right;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.botao:hover {
+    opacity: 0.8;
+}
+
+.botao:active {
+    opacity: 0.6;
+}
+
+.tasklist {
+    margin-top: 20px;
+    width: 100%;
+    list-style: none;
+}
+
+.task {
+    background-color:#F2F2F2;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+img {
+    height: 20px;
+opacity: 0;
+transition: opacity 0.5s ease-in-out;
+
+}
+.task:hover img{
+    opacity: 100;
+}
